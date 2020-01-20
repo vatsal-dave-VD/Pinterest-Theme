@@ -13,13 +13,11 @@ body{
     font-weight: bold;
     margin: 2px 8px;
     color: white;
-    filter: blur(0.8px);
+    filter: blur(0.5px);
     border-radius: 8px;
-    transition: 0.5s;
 }
 .btn-title:hover{
-    filter: blur(0px);
-    transition: 0.3s;
+    filter: blur(0);
 }
 .nav{
     display: flex;
@@ -39,7 +37,7 @@ body{
     box-shadow: none;
 }
 .btns:focus{
-    background-color: slategrey;
+    background-color: lightgray;
     border: white;
     box-shadow: none;
 }
