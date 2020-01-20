@@ -59,6 +59,7 @@ body{
     transition: 0.5s;
     z-index: 0;
 }
+
 /* .cards:hover{
     z-index: 1;
     transform: scale(1.1);
@@ -85,7 +86,14 @@ body{
 .card-columns{
     column-count: 4;
 }
-
+.footer-box{
+    display: flex;
+    padding-top: 10px;
+}
+.image-box {
+    margin: 0px 10px;
+    flex: 1 1 -5px;
+}
 @media (max-width: 1024px)
 {
     .card-columns{
