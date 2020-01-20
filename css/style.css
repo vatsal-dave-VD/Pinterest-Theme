@@ -5,6 +5,13 @@
 body{
     background-color: whitesmoke;
 }
+.logo
+{
+    width: 12rem;
+    margin: 1rem;
+    margin-left: 5rem;
+    display: block;
+}
 .btn-title{
     width: 7rem;
     height: 3.125rem;
@@ -70,13 +77,18 @@ body{
         transform: rotateY(360deg);
     }
 } */
+
 .card-columns{
     column-count: 4;
 }
+
 @media (max-width: 1024px)
 {
     .card-columns{
         column-count: 4;
+    }
+    .logo{
+        display: none;
     }
 }
 @media (max-width: 768px)
