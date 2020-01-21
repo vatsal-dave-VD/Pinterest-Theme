@@ -35,7 +35,7 @@ body{
 .title-tabs-menu{
     padding: 10px 40px ;
 }
-.btns{
+.button-tab-layout{
     font-size: 1rem;
     margin: 0px;
     padding: 5px 20px;
@@ -44,15 +44,15 @@ body{
     margin: 0.5px;
     box-shadow: none;
 }
-.btns:hover{
+.button-tab-layout:hover{
     background-color: silver;
 }
-.btns:focus{
+.button-tab-layout:focus{
     background-color: lightgray;
     border: white;
     box-shadow: none;
 }
-.cards{
+.card-layout{
     display: inline-flex;
     max-width: 318px;
     border-radius: 20px;
@@ -60,7 +60,7 @@ body{
     z-index: 0;
 }
 
-/* .cards:hover{
+/* .card-layout:hover{
     z-index: 1;
     transform: scale(1.1);
     transition: 0.5s;
