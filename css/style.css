@@ -94,6 +94,12 @@ body{
     margin: 0px 10px;
     flex: 1 1 -5px;
 }
+.icon-layout{
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+/* media queries */
 @media (max-width: 1024px)
 {
     .card-columns{
